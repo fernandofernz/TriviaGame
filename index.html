@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TriviaGame</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<!-- Jquery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<body>
+    <div class="row"></div>
+    <div class="container col-md-9 text-center">
+        <button type="button" class="btn btn-primary" id="start">Start</button>
+    </div>
+
+    <div class="row"></div>
+    <div class="container col-md-9 text-center">
+        <div class="jumbotron" id="jumbotron">
+            <h1 id="timer_container">
+                <span id="Timer">Timer :40</span>
+            </h1>
+
+            <h3>1. Who invented the telephone? </h3>
+            <input type="radio" name="q1" value="bell">Alexander Bell
+            <input type="radio" name="q1" value="tesla">Nikola Tesla
+            <input type="radio" name="q1" value="faraday">Michael Faraday
+            <input type="radio" name="q1" value="einstein">Albert Einstein
+
+            <h3>2. What is a Geiger Counter used to detect?</h3>
+            <input type="radio" name="q2" value="geiger">Geiger
+            <input type="radio" name="q2" value="air">Air Particles
+            <input type="radio" name="q2" value="radiation">Radiation
+            <input type="radio" name="q2" value="seawater">Salinity of Water
+
+            <h3>3. In the film Babe, what type of animal was Babe?</h3>
+            <input type="radio" name="q3" value="horse">Horse
+            <input type="radio" name="q3" value="cow">Cow
+            <input type="radio" name="q3" value="dog">Dog
+            <input type="radio" name="q3" value="pig">Pig
+
+            <h3>4. What was Mohammed Ali's birth name?</h3>
+            <input type="radio" name="q4" value="lang">Clubber Lang
+            <input type="radio" name="q4" value="balboa">Rocky Balboa
+            <input type="radio" name="q4" value="clay">Cassius Clay
+            <input type="radio" name="q4" value="frazier">Joe Frazier
+
+            <h3>5. What's the total number of dots on a pair of dice? </h3>
+            <input type="radio" name="q5" value="42">42
+            <input type="radio" name="q5" value="48">48
+            <input type="radio" name="q5" value="46">46
+            <input type="radio" name="q5" value="52">52
+
+            <h3>6. Who directed the movie Jaws?</h3>
+            <input type="radio" name="q6" value="lucas">George Lucas
+            <input type="radio" name="q6" value="cameron">James Cameron
+            <input type="radio" name="q6" value="spielberg">Steven Spielberg
+            <input type="radio" name="q6" value="tarantino">Quentin Tarantino
+
+            <h3>7 . Which planet is the closest to Earth</h3>
+            <input type="radio" name="q7" value="venus">Venus
+            <input type="radio" name="q7" value="mars">Mars
+            <input type="radio" name="q7" value="neptune">Neptune
+            <input type="radio" name="q7" value="uranus">Uranus
+
+            <h3>8. The title role of the 1990 movie "Pretty Woman" was played by which actress?</h3>
+            <input type="radio" name="q8" value="witherspoon">Reese Witherspoon
+            <input type="radio" name="q8" value="roberts">Julia Roberts
+            <input type="radio" name="q8" value="clay">Kate Hudson
+            <input type="radio" name="q8" value="silverstone">Alicia Silverstone
+
+            <h3>9. Spinach is high in which mineral? </h3>
+            <input type="radio" name="q9" value="calcium">Calcium
+            <input type="radio" name="q9" value="iron">Iron
+            <input type="radio" name="q9" value="potassium">Potassium
+            <input type="radio" name="q9" value="sodium">Sodium
+
+            <h3>10. WWhat kind of animal did Bill Clinton have in office?</h3>
+            <input type="radio" name="q10" value="cat">Cat named Socks
+            <input type="radio" name="q10" value="eagle">Eagle named Liberty
+            <input type="radio" name="q10" value="fish">Fish named Jaws
+            <input type="radio" name="q10" value="bird">Bird named Chief
+
+            <button type="button" id="finish" class="btn btn-primary btn-sm btn-block">finish</button>
+        </div>
+
+        <div class="row">
+            <div id="endGame">
+                <h1 id="correctAnswers">
+                    <span id="correctAsnwers"></span>
+                </h1>
+                <h1 id="wrongAnsers">
+                    <span id="wrongAnswers"></span>
+                </h1>
+                <h1 id="unAsnwered">
+                    <span id="unAnswered"></span>
+                </h1>
+            </div>
+        </div>
+
+
+        <body>
+            <!-- JavaScript -->
+            <script type="text/javascript" src="assets/javascript/app.js"></script>
+        </body>
+
+</html>

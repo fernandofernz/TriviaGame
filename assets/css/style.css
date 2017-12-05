@@ -1,0 +1,22 @@
+body {
+    background-image: url("http://vignette1.wikia.nocookie.net/survivor-org/images/0/0d/Utgp1.gif/revision/latest?cb=20141221070322");
+}
+
+#start {
+    margin-top: 600px;
+}
+
+.jumbotron {
+    margin-top: 50px;
+}
+
+#finish {
+    margin-top: 40px;
+}
+
+#endGame {
+    margin-top: 300px;
+    background: #efefef;
+    padding: 30px;
+    border: 50px;
+}
